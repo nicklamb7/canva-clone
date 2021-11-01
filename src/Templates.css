@@ -1,0 +1,23 @@
+.template {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.templates h1 {
+  font-size: 24px;
+}
+
+.templates ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.template img {
+  width: 210px;
+  margin: 24px 24px 48px 0px;
+  border-radius: 4px;
+  overflow: hidden;
+}

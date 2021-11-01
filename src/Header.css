@@ -1,0 +1,124 @@
+.header {
+  height: 72px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px rgb(64 87 109 / 7%);
+  background-color: white;
+  padding: 0 32px;
+  z-index: 999;
+}
+
+.header svg {
+  height: 56px;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__links button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__links svg {
+  padding: 6px;
+  color: gray;
+}
+
+.header__links button {
+  width: 96px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: white;
+  border: none;
+  margin: 0 5px;
+}
+
+.header__links button:hover {
+  background-color: rgba(64,87,109,.07);
+  height: 40px;
+  border-radius: 4px;
+}
+
+.header__links .home-btn {
+  background-color: rgba(64,87,109,.07);
+  height: 40px;
+  width: 66px;
+  margin: 0 20px 0 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header form {
+  display: flex;
+  align-items: center;
+}
+
+.header form svg {
+  position: relative;
+  right: -40px;
+  z-index: 999;
+}
+
+.header__search-bar {
+  position: relative;
+  left: -30px;
+  width: 410px;
+  height: 40px;
+  padding: 0 0 0 40px;
+  margin: 0px;
+  border: 1px solid #e1e1e1;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__right {
+  padding-left: 16px;
+}
+
+.header__icons {
+  padding: 8px;
+}
+
+.header_create-btn {
+  background: #7d2ae8;
+  color: white;
+  border-radius: 4px;
+  width: 136px;
+  height: 40px;
+  margin: 16px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header_profile-btn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #7d2ae8;
+  color: white;
+  font-size: 22px;
+}

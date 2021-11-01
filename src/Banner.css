@@ -1,0 +1,89 @@
+.banner__top {
+  padding-right: 32px;
+  height: 192px;
+  width: 95%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  font-size: 14px;
+  text-align: center;
+  background-image: url('https://static.canva.com/web/images/f1ea2ceabc2022676b55fe69cecbbf5c.jpg');
+}
+
+.banner__top h1 {
+  padding-top: 24px;
+  margin-bottom: 12px;
+}
+
+.banner__categories {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 880px;
+  margin: 0 auto;
+
+}
+
+.banner__category {
+  width: 96px;
+  margin: 12px 8px 8px 8px;
+}
+
+.banner__category p {
+  margin: 8px 8px 8px 8px;
+  text-align: center;
+}
+
+.banner__category-btn {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  border: none;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: hsla(0,0%,100%,.15);
+}
+
+.banner__category-btn:hover {
+  background-color: white;
+  color: #713adf
+}
+
+.banner__category-btn svg {
+  color: white;
+}
+
+.banner__category-btn svg:hover {
+  color: #713adf
+}
+
+.banner__bottom {
+  width: 95%;
+  padding-right: 32px;
+  background-color: #f8f9f9;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 48px;
+  height: 237px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.banner__bottom ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.banner__featured-template img {
+  width: 192px;
+  margin-right: 24px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
